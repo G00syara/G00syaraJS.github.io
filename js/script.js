@@ -1,4 +1,3 @@
-
 function block1_show(){
   setCookie("block1_style", "show");
   document.getElementById('block1').style.display='block'; 
@@ -102,17 +101,3 @@ function Buttons(){
   if(getCookie("block3_style") == "hide") { block3_hide(); }
   if(getCookie("block4_style") == "hide") { block4_hide(); }
 }
-
-
-/*document.addEventListener("DOMContentLoaded", function(event) {
-//when loading document
-      var background = localStorage.getItem("background");
-    // get localStorage var background
-      if (background) {
-    // if its not null and empty
-        document.body.className += background;
-    //add class to body
-      }
-    });
-*/
-
